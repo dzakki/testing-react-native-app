@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoItem should match snapshot 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#eee",
+      "borderRadius": 8,
+      "marginBottom": 8,
+      "padding": 8,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "black",
+      }
+    }
+  >
+    learn typescript
+  </Text>
+</View>
+`;
