@@ -42,5 +42,10 @@ describe('Home', () => {
     waitFor(() => expect(screen.getByText(inputValue)).toBeVisible());
     jest.useRealTimers();
   });
+
+  test('should match snapshot', () => {
+    renderApp();
+    expect(screen.toJSON()).toMatchSnapshot();
+  })
 });
 

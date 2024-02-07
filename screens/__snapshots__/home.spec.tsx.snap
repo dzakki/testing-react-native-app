@@ -1,0 +1,262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should match snapshot 1`] = `
+[
+  <View
+    style={
+      {
+        "paddingTop": 16,
+        "width": 300,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "marginBottom": 16,
+          "textAlign": "center",
+        }
+      }
+    >
+      Todo App!
+    </Text>
+    <View
+      style={
+        {
+          "flexDirection": "column",
+          "flexWrap": "wrap",
+          "marginBottom": 8,
+        }
+      }
+    >
+      <TextInput
+        onChangeText={[Function]}
+        placeholder="write your todo here..."
+        style={
+          {
+            "borderColor": "black",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "marginBottom": 8,
+            "padding": 8,
+          }
+        }
+        value=""
+      />
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "backgroundColor": "#DDDDDD",
+            "borderRadius": 8,
+            "marginBottom": 8,
+            "opacity": 1,
+            "padding": 8,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "black",
+              "textAlign": "center",
+            }
+          }
+        >
+          Submit
+        </Text>
+      </View>
+    </View>
+  </View>,
+  <RCTScrollView
+    style={
+      {
+        "paddingVertical": 16,
+        "width": 300,
+      }
+    }
+  >
+    <View>
+      <RCTScrollView
+        data={
+          [
+            {
+              "completed": true,
+              "id": 1,
+              "title": "learn typescript",
+            },
+            {
+              "completed": true,
+              "id": 2,
+              "title": "learn javescript",
+            },
+            {
+              "completed": false,
+              "id": 3,
+              "title": "learn PHP",
+            },
+            {
+              "completed": false,
+              "id": 4,
+              "title": "learn Vuejs",
+            },
+          ]
+        }
+        getItem={[Function]}
+        getItemCount={[Function]}
+        keyExtractor={[Function]}
+        onContentSizeChange={[Function]}
+        onLayout={[Function]}
+        onMomentumScrollBegin={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEventThrottle={0.0001}
+        stickyHeaderIndices={[]}
+        viewabilityConfigCallbackPairs={[]}
+      >
+        <View>
+          <View
+            onFocusCapture={[Function]}
+            onLayout={[Function]}
+            style={null}
+          >
+            <View
+              style={
+                {
+                  "backgroundColor": "#eee",
+                  "borderRadius": 8,
+                  "marginBottom": 8,
+                  "padding": 8,
+                  "width": "100%",
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "color": "black",
+                  }
+                }
+              >
+                learn typescript
+              </Text>
+            </View>
+          </View>
+          <View
+            onFocusCapture={[Function]}
+            onLayout={[Function]}
+            style={null}
+          >
+            <View
+              style={
+                {
+                  "backgroundColor": "#f9f9f9",
+                  "borderRadius": 8,
+                  "marginBottom": 8,
+                  "padding": 8,
+                  "width": "100%",
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "color": "black",
+                  }
+                }
+              >
+                learn javescript
+              </Text>
+            </View>
+          </View>
+          <View
+            onFocusCapture={[Function]}
+            onLayout={[Function]}
+            style={null}
+          >
+            <View
+              style={
+                {
+                  "backgroundColor": "#eee",
+                  "borderRadius": 8,
+                  "marginBottom": 8,
+                  "padding": 8,
+                  "width": "100%",
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "color": "black",
+                  }
+                }
+              >
+                learn PHP
+              </Text>
+            </View>
+          </View>
+          <View
+            onFocusCapture={[Function]}
+            onLayout={[Function]}
+            style={null}
+          >
+            <View
+              style={
+                {
+                  "backgroundColor": "#f9f9f9",
+                  "borderRadius": 8,
+                  "marginBottom": 8,
+                  "padding": 8,
+                  "width": "100%",
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "color": "black",
+                  }
+                }
+              >
+                learn Vuejs
+              </Text>
+            </View>
+          </View>
+        </View>
+      </RCTScrollView>
+    </View>
+  </RCTScrollView>,
+]
+`;

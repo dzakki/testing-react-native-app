@@ -38,6 +38,11 @@
     "setupFilesAfterEnv": [
       "<rootDir>/jest-setup.ts"
     ],
-    "collectCoverage": true
+    "collectCoverage": true,
+    "moduleFileExtensions": ["ts", "tsx", "js", "jsx"],
+    "collectCoverageFrom": [
+      "./components/**/*.{js,jsx,ts,tsx}",
+      "./screens/**/*.{js,jsx,ts,tsx}"
+    ]
   }
 }
